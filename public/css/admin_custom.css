@@ -1,0 +1,42 @@
+.btn-group .btn {
+    width: 100% !important;
+}
+
+
+.form-label:before {
+    content:"*";
+    color:red;
+  }
+
+
+  .dropzone {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+
+/* Increase the size of the checkboxes */
+.chckbox-perm input[type="checkbox"] {
+    transform: scale(1.5); /* Increase the size by 50% */
+    margin: 0; /* Remove any margin */
+}
+
+/* Style the checkbox label to center the checkbox */
+.chckbox-perm label {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.chckbox-col
+{
+    max-width: 15px !important;
+}
+
+.action-btn{
+    width: 70px !important;
+    height: 40px !important;
+}
